@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h2 id="main-heading">BMI  Calculator</h2>
+    </header>
+
+    <main>
+        <form id="form">
+            <label for="height">Height (in m) : </label>
+            <input type="text" class="input" id="height" name="height">
+
+            <label for="weight">Weight (in kg) : </label>
+            <input type="text" class="input" id="weight" name="weight">
+
+            <button type="submit" class="calculate" id="calculate">Calculate</button>
+
+            <input type="text" class="output" id="result" name="result" readonly>
+
+        </form>
+    </main> 
+
+    <footer>
+        <h3>BMI Weight Guide</h3>
+        <h4>Under Weight = Less than 18.6</h4>
+        <h4>Over Weight = Greater than 24.9</h4>
+        <h4>Normal Weight = 18.6 and 24.9</h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script  src="script.js"></script>
+</body>
+</html>
